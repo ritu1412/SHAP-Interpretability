@@ -94,8 +94,6 @@ shap_values_1 = explainer(sentence_1)
   shap.plots.text(shap_values_1)
   ```
 
-  ![SHAP Values Sentence 1](images/shap_sentence1.png)
-
 #### **Input Sentence 2**
 
 ```python
@@ -114,8 +112,6 @@ shap_values_2 = explainer(sentence_2)
   ```python
   shap.plots.text(shap_values_2)
   ```
-
-  ![SHAP Values Sentence 2](images/shap_sentence2.png)
 
 ### Comparative Analysis
 
@@ -155,8 +151,6 @@ shap_values = explainer(x, y)
 ```python
 shap.plots.text(shap_values)
 ```
-
-![SHAP Values Predefined Outputs](images/shap_predefined.png)
 
 #### **Interpretation**
 
